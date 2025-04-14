@@ -14,7 +14,7 @@ export default function Hero() {
         alt="table pattern"
       />
 
-      <dev className="order-2 md:order-1">
+      <div className="order-2 md:order-1">
         <h1 className="md:text-7xl text-4xl  text-center md:text-left font-bold my-12 text-Very-Dark-Blue">
           Bring everyone together to build better products.
         </h1>
@@ -25,7 +25,7 @@ export default function Hero() {
         <div className="flex w-full items-center justify-center md:block">
           <Button>get started</Button>
         </div>
-      </dev>
+      </div>
       <div className="order-1 md:order-2">
         <img className="w-full" src={heroImg} alt="illustration intro" />
       </div>

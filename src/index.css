@@ -22,5 +22,6 @@
 body {
   font-family: "Be Vietnam Pro";
   color: var(--color-Very-Dark-Blue);
-  overflow: hidden;
+  overflow-x: hidden;
+  height: 1000px;
 }
