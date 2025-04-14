@@ -19,9 +19,11 @@
   --color-Very-Pale-Red: hsl(13, 100%, 96%);
   --color-Very-Light-Gray: hsl(0, 0%, 98%);
 }
+html,
 body {
   font-family: "Be Vietnam Pro";
   color: var(--color-Very-Dark-Blue);
   overflow-x: hidden;
   height: 1000px;
+  position: relative;
 }

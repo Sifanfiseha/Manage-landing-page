@@ -9,7 +9,7 @@ export default function Hero() {
       className="items-center grid grid-cols-1 md:grid-cols-2 place-items-center mx-12 md:mx-32 md:gap-44"
     >
       <img
-        className="absolute -z-10 top-[-20%] right-[-6%]"
+        className="absolute -z-10 top-[-3%] md:top-[-20%] right-[-6%]"
         src={bgimg}
         alt="table pattern"
       />
