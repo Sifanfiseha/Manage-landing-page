@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="items-center grid grid-cols-1 md:grid-cols-2 place-items-center mx-12 md:mx-32 md:gap-44"
+      className="items-center grid overflow-hidden grid-cols-1 md:grid-cols-2 place-items-center mx-12 md:mx-32 md:gap-44"
     >
       <img
         className="absolute -z-10 top-[-3%] md:top-[-20%] right-[-6%]"
@@ -23,7 +23,7 @@ export default function Hero() {
           while keeping the larger team goals in view.
         </p>
         <div className="flex w-full items-center justify-center md:block">
-          <Button>get started</Button>
+          <Button classes="text-white">get started</Button>
         </div>
       </div>
       <div className="order-1 md:order-2">

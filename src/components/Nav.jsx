@@ -13,11 +13,11 @@ export default function Nav() {
               className="capitalize  cursor-pointer hover:text-stone-600 duration-110 ease-in font-semibold"
               key={link}
             >
-              {link}
+              <a href="#">{link}</a>
             </li>
           ))}
         </ul>
-        <Button classes="hidden md:block">get started</Button>
+        <Button classes="hidden text-white md:block">get started</Button>
         <div className="flex md:hidden mt-[-0.5rem] flex-col gap-1">
           <div className="w-8 h-1 bg-Very-Dark-Blue rounded-sm"></div>
           <div className="w-8 h-1 bg-Very-Dark-Blue rounded-sm"></div>

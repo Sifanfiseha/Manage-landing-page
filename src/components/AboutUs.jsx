@@ -20,7 +20,7 @@ export default function AboutUs() {
         {aboutUs.map((info) => (
           <li key={info.id} className="flex flex-col items-start gap-1">
             <div className="flex ml-8 relative items-center gap-4">
-              <div className="absolute bg-orange-100 -z-90 top-0 left-2 bottom-0 right-[-12rem]"></div>
+              <div className="absolute md:hidden bg-orange-100 -z-90 top-0 left-2 bottom-0 right-[-12rem]"></div>
               <p className="bg-Bright-Red px-6 text-center text-white font-bold justify-self-auto text-lg py-2 rounded-full ">
                 0{info.id}
               </p>

@@ -24,6 +24,7 @@ body {
   font-family: "Be Vietnam Pro";
   color: var(--color-Very-Dark-Blue);
   overflow-x: hidden;
-  height: 1000px;
   position: relative;
+  scroll-behavior: smooth;
+  scrollbar-base-color: transparent;
 }
