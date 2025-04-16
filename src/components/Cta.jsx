@@ -5,7 +5,7 @@ export default function Cta() {
   return (
     <section
       id="cta"
-      className="flex overflow-hidden flex-col md:flex-row   z-0 py-20 md:px-36  bg-Bright-Red my-12 relative  items-center justify-between"
+      className="flex overflow-hidden flex-col md:flex-row   z-0 py-20 md:px-36  bg-Bright-Red mt-12 relative  items-center justify-between"
     >
       <img
         className="absolute opacity-10 z-10 top-[-3%] md:top-[-250%] right-[-30%]"
@@ -21,7 +21,12 @@ export default function Cta() {
         Simplify how your team works today.
       </h2>
       <div className="flex items-center justify-center w-fit">
-        <Button classes="bg-white text-Bright-Red">get started</Button>
+        <Button
+          hoverEffect="hover:bg-white bg-white text-Bright-Red"
+          classes=" bg-white text-Bright-Red "
+        >
+          get started
+        </Button>
       </div>
     </section>
   );

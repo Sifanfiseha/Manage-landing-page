@@ -21,7 +21,7 @@
 }
 html,
 body {
-  font-family: "Be Vietnam Pro";
+  font-family: "Be Vietnam Pro", sans-serif;
   color: var(--color-Very-Dark-Blue);
   overflow-x: hidden;
   position: relative;
