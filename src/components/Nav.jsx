@@ -28,12 +28,13 @@ export default function Nav() {
             </li>
           ))}
         </ul>
+
         <Button classes="hidden text-white md:block">get started</Button>
-        <div className="w-10 h-10 flex  md:hidden items-center justify-center -mt-2">
+        <div className="block md:hidden">
           {!isopen ? (
             <button
               onClick={handleOpenMenu}
-              className="flex md:hidden  flex-col gap-1"
+              className="flex md:hidden flex-col gap-1"
             >
               <div className="w-8 h-1 bg-Very-Dark-Blue rounded-sm"></div>
               <div className="w-8 h-1 bg-Very-Dark-Blue rounded-sm"></div>
