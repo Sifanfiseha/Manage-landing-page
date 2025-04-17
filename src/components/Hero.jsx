@@ -15,7 +15,7 @@ export default function Hero() {
       />
 
       <div className="order-2 md:order-1">
-        <h1 className="md:text-7xl text-4xl  text-center md:text-left font-bold my-12 text-Very-Dark-Blue">
+        <h1 className="md:text-6xl text-4xl  text-center md:text-left font-bold my-12 text-Very-Dark-Blue">
           Bring everyone together to build better products.
         </h1>
         <p className="text-lg text-center md:text-left my-12 text-stone-500 max-w-md">
